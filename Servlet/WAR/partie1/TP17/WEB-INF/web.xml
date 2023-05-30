@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD Web
+Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+<web-app>
+<servlet>
+
+
+<servlet-name>TP17</servlet-name>
+
+<servlet-class>TP17</servlet-class>
+
+<init-param>
+            <param-name>prenom</param-name>
+            <param-value>Mohammed</param-value>
+            
+         
+            
+</init-param>
+
+<init-param>
+
+<param-name>nom</param-name>
+            <param-value>kharbouch</param-value>
+</init-param>
+</servlet>
+
+
+
+<servlet-mapping>
+<servlet-name>TP17</servlet-name>
+<url-pattern>/Question6</url-pattern>
+</servlet-mapping> 
+
+</web-app>
